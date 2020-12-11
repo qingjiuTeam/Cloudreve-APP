@@ -1,11 +1,11 @@
 <h1 align="center">
   
   <a href="https://www.qjpan.com/" alt="logo" ><img src="https://pan.z2z.cc/tu/logo-removebg-preview.png" width="150"/></a>
-  
+  Cloudreve客户端CR+开源版
   <br>
 </h1>
 
-## <h4 align="center">CR+</h4>
+<h4 align="center">CR+</h4>
 
 
 

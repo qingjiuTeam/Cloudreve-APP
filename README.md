@@ -1,4 +1,6 @@
-<h1 align="center">
+<a href="https://pan.z2z.cc/" alt="logo" ><img src="https://pan.z2z.cc/tu/logo-removebg-preview.png" width="150"/></a>
+  CR+
+  <br>
 </h1>
 <h4 align="center">CR+</h4>
 

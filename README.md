@@ -4,17 +4,15 @@
   清玖云盘
   <br>
 </h1>
-<p>
 <h4 align="center">清玖云盘</h4>
 
 
 
 <p align="center">
   <a href="https://www.qingstore.cn">清玖云盘</a> •
-  <a href="https://jq.qq.com/?_wv=1027&k=BAdUPe9b">QQ群</a> •
-  <a href="https://bk.qingstore.cn/">文档</a> •
-  <a href="https://drive.qingstore.cn">离线专用盘</a> •
-  <a href="https://t.me/qingjiucloud">Telegram 群组</a> 
+  <a href="https://jq.qq.com/?_wv=1027&k=ZgLrYvkq">QQ群</a> •
+  <a href="https://t.me/cloudreve_crq">Telegram 群组</a> 
+  <a href="https://t.me/cloudreve_cr">Telegram 频道</a>
 </p>
 
 

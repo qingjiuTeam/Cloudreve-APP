@@ -2,7 +2,7 @@
   
   <a href="https://www.qjpan.com/" alt="logo" ><img src="https://pan.z2z.cc/tu/logo-removebg-preview.png" width="150"/></a>
    <br>
-   Cloudreve客户端CR+开源版
+   Cloudreve客户端CR+ 开源版
  
 </h1>
 

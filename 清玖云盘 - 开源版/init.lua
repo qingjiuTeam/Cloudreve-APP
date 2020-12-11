@@ -1,0 +1,17 @@
+appname="清玖云盘"
+appver="1.0.6"
+appcode="105"
+appsdk="15"
+path_pattern=""
+packagename="com.cloud.storage"
+theme="Theme_DeviceDefault_Light_NoActionBar"
+app_key=""
+app_channel=""
+developer=""
+description=""
+debugmode=true
+user_permission={
+  "DOWNLOAD_WITHOUT_NOTIFICATION",
+ "INTERNET",
+ "WRITE_EXTERNAL_STORAGE"
+}

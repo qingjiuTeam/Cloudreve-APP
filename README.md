@@ -2,18 +2,24 @@
 
 域名
 ┣MainActivity 10
+
 ┣apis 8
+
 ┗signin 15
 
 下载路径
 ┣transmission_page 16
+
 ┗MainActivity 13
 
 图标
 ┣src/icon
+
 ┗src/qing_logo
 
 文字
 ┣lay/reg 29
+
 ┣lay/login 27
+
 ┗main 4

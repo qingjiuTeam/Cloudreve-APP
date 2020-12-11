@@ -27,30 +27,9 @@
 
 ## 另外本程序是使用LUA写的，自己去找编辑器修改以下位置然后打包安装即可
 
-## 域名
-
-┣MainActivity 10
-
-┣apis 8
-
-┗signin 15
-
-## 下载路径
-
-┣transmission_page 16
-
-┗MainActivity 13
-
-## 图标
-
-┣src/icon
-
-┗src/qing_logo
-
-## 文字
-
-┣lay/reg 29
-
-┣lay/login 27
-
-┗main 4
+apis 8
+Mainactivity 9
+main 4(可以不改 直接删了都行)
+sign 15
+init 安装包名称和包名都在这
+start 35

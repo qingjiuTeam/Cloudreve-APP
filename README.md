@@ -1,6 +1,6 @@
 <h1 align="center">
   
-  <a href="https://www.qjpan.com/" alt="logo" ><img src="https://pan.z2z.cc/tu/logo-removebg-preview.png" width="150"/></a>
+  <a href="https://cr.z2z.cc/" alt="logo" ><img src="https://pan.z2z.cc/tu/logo-removebg-preview.png" width="150"/></a>
    <br>
    Cloudreve客户端CR+ 开源版
  
@@ -40,3 +40,15 @@ init 安装包名称和包名都在这
 
 start 35
 
+
+由清玖团队发行的免费版cloudreve安卓客户端来啦，点击下方链接进行下载吧！
+
+https://cr.z2z.cc
+
+已知问题：
+1.客户端不会自己申请索要访问手机文件权限 请手动开启
+2.部分全面屏手机点击上传文件的时候页面覆盖不完整
+
+我们会在下一个版本进行修复！
+
+备注：开源版与免费版UI不一样，请按照自己喜好下载

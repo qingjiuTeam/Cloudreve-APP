@@ -1,0 +1,42 @@
+local lay = {
+  LinearLayout;
+  layout_height="8%h";
+  layout_width="-1";
+  {
+    LinearLayout;
+    layout_width="48dp";
+    layout_height="fill";
+    gravity="center";
+    {
+      ImageView;
+      layout_width="26dp";
+      layout_height="fill";
+      id="icon";
+    };
+  };
+  {
+    LinearLayout;
+    orientation="vertical";
+    gravity="left";
+    layout_gravity="center";
+    layout_width="fill";
+    {
+      TextView;
+      singleLine=true;
+      textSize="16sp";
+      textColor="#616161";
+      id="filename";
+      ellipsize="middle";
+      text="{filename}";
+    };
+    {
+      TextView;
+      textSize="14sp";
+      layout_marginTop="0dp";
+      id="info";
+      text="1980-01-01 08:00 {size}MB";
+      textColor="#9E9E9E";
+    };
+  };
+};
+return lay

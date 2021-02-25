@@ -28,17 +28,19 @@
 ## 另外本程序是使用LUA写的，自己去找编辑器修改以下位置然后打包安装即可
 
 ## 接下来就是需要改的位置了，各位注意看喔，看不明白的去群里问
-apis 8
+Mainactivity L10,880
 
-Mainactivity 9
+main L4
 
-main 4(可以不改 直接删了都行)
+satrt L128q,87q,49
 
-sign 15
+sigin L15
 
-init 安装包名称和包名都在这
+apis L8
 
-start 35
+transportation_page L465
+
+注:q为群号，详见注释
 
 
 由清玖团队发行的免费版cloudreve安卓客户端来啦，点击下方链接进行下载吧！

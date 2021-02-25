@@ -1,0 +1,289 @@
+{
+  LinearLayout;
+  layout_width="fill";
+  background="#FFF9F9F9";
+  orientation="vertical";
+  layout_height="fill";
+  {
+    ScrollView;
+    layout_height="fill";
+    layout_width="fill";
+    {
+      LinearLayout;
+      layout_width="fill";
+      -- layout_height="fill";
+      orientation="vertical";
+
+      {
+        LinearLayout;
+        layout_width="fill";
+        layout_height="20%h";
+        -- background="#FFA0C3FD";
+        gravity="center";
+        {
+          LinearLayout;
+          layout_width="95%w";
+          layout_height="15%h";
+          -- background="#FF4F4F4F";
+          {
+            LinearLayout;
+            layout_width="12%h";
+            layout_height="fill";
+            -- background="#A5FFC800";
+            gravity="center";
+            {
+              CircleImageView;
+              layout_width="8%h";
+              layout_height="8%h";
+              src="src/defhead.jpg";
+              id="id_user_headimg";
+            };
+          };
+          {
+            LinearLayout;
+            layout_height="fill";
+            orientation="vertical";
+            layout_width="55%w";
+            -- background="#ffffff";
+            gravity="center";
+            {
+              LinearLayout;
+              orientation="horizontal";
+              layout_width="fill";
+              -- gravity="left";
+
+              {LinearLayout;
+                layout_width="25%w";
+                {
+                  TextView;
+                  --layout_gravity="left";
+                  textSize="18sp";
+                  text="用户名";
+                  maxEms="8";
+                  textColor="#212121";
+                  layout_width="wrap_content";
+                  --layout_weight="10";
+
+                  typeface={nil,1};
+                  singleLine=true;
+                  ellipsize='end';
+                  id="id_user_username";
+                };
+              };
+              -- {
+              -- LinearLayout;
+              -- layout_width="25%w";
+              {CardView;
+                layout_width="wrap_content";
+                layout_gravity="center";
+                layout_marginLeft="1%w";
+                layout_marginRight="1%w";
+                background="#ff000000";
+                -- layout_weight="1";
+                radius="12";
+                elevation="0";
+                id="id_user_label_card";
+                {
+                  TextView;
+                  text="游客";
+                  textColor="#ffffff";
+                  layout_marginLeft="6dp";
+                  layout_marginRight="6dp";
+                  singleLine=true;
+                  textSize="13sp";
+                  -- maxEms="10";
+                  layout_gravity="center";
+                  id="id_user_label";
+
+                  -- ellipsize='end';
+                };
+              };
+              -- };
+            };
+
+            {
+              TextView;
+              layout_gravity="left";
+              text="邮箱加载失败";
+              textSize="16sp";
+              layout_marginTop="4dp";
+              textColor="#616161";
+
+              singleLine=true;
+              ellipsize='middle';
+              id="id_user_email";
+            };
+          };
+          {
+            LinearLayout;
+            layout_width="fill";
+            layout_height="fill";
+            {
+              ImageView;
+              layout_width="8%w";
+              layout_height="fill";
+              src="src/chevron_right.png";
+            };
+          };
+        };
+      };
+
+
+      {
+        LinearLayout;
+        gravity="center";
+        layout_width="fill";
+        orientation="vertical";
+
+        {
+          LinearLayout;
+          layout_width="90%w";
+          layout_height="18%h";
+          { -- Storage Card
+            CardView;
+            radius="22";
+            elevation="0";
+            layout_height="fill";
+            layout_width="73%w";
+            background="#ffffff";
+            {LinearLayout;
+              layout_height="fill";
+              layout_width="fill";
+              {LinearLayout;
+                layout_height="fill";
+                layout_width="23%w";
+                layout_marginLeft="8dp";
+                id="id_storage_canvas";
+              };
+              {LinearLayout;
+                layout_height="fill";
+                layout_width="fill";
+                layout_marginLeft="4%w";
+                orientation="vertical";
+                gravity="center";
+                {LinearLayout;
+                  layout_width="fill";
+                  {TextView;
+                    text="余剩:";
+                    textSize="18sp";
+                    textColor="#212121";
+                  };
+                  {TextView;
+                    text="Loding...";
+                    textSize="18sp";
+                    textColor="#212121";
+                    singleLine=true;
+                    id="id_storage_free";
+                  };};
+                {LinearLayout;
+                  layout_marginTop="12dp";
+                  layout_width="fill";
+                  {TextView;
+                    text="总容量:";
+                    textSize="16sp";
+                    textColor="#616161";
+                  };
+                  {TextView;
+                    text="Loding...";
+                    textSize="16sp";
+                    textColor="#616161";
+                    singleLine=true;
+                    id="id_storage_total";
+                  };}
+              };
+            };
+          };
+          { -- Shop Card
+            CardView;
+            layout_marginLeft="2%w";
+            layout_width="fill";
+            elevation="0";
+            layout_height="fill";
+            radius="22";
+            background="#ffffff";
+            {
+              LinearLayout;
+              orientation="vertical";
+              layout_width="fill";
+              gravity="center";
+              layout_height="fill";
+              id="id_user_shop";
+              {
+                ImageView;
+                padding="12dp";
+                src="src/shop.png";
+              };
+              {
+                TextView;
+                layout_marginTop="8dp";
+                layout_gravity="center";
+                textColor="#424242";
+                textSize="16sp";
+                text="购买";
+              };
+            };
+          };
+
+        };
+        {
+          LinearLayout;
+          layout_width="90%w";
+          layout_height="18%h";
+          layout_marginTop="14dp";
+          {
+            CardView;
+            radius="22";
+            elevation="0";
+            layout_height="fill";
+            layout_width="34%w";
+            background="#ffffff";
+          };
+          {
+            CardView;
+            layout_marginLeft="2%w";
+            layout_width="fill";
+            elevation="0";
+            layout_height="fill";
+            radius="22";
+            background="#ffffff";
+          };
+        };
+        { -- 设置栏
+          LinearLayout;
+          layout_width="90%w";
+          --layout_height="10";
+          layout_marginTop="14dp";
+          {
+            CardView;
+            radius="22";
+            elevation="0";
+            layout_height="fill";
+            layout_width="fill";
+            background="#ffffff";
+            
+            {LinearLayout;
+              layout_width="fill";
+              gravity="center";
+              layout_height="10%h";
+              layout_gravity="bottom";
+              id="id_logout";
+              {
+                TextView;
+                textSize="20sp";
+                textColor="#ffde142d";
+                text="退出登录";
+              };
+            };
+          
+          };
+        };
+
+
+
+      };
+
+
+
+    };
+  };
+};

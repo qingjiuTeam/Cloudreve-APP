@@ -1,0 +1,150 @@
+{
+  LinearLayout;
+  orientation="vertical";
+  layout_width="fill";
+  layout_height="fill";
+  id="id_home_top";
+  {
+    LinearLayout;
+    --  background="#000000";
+    layout_width="fill";
+    layout_weight="200";
+    -- layout_height="match_parent"; 
+    {
+      PageView;
+      id="id_main_page";
+      pages={
+        "page/main/folder",
+        "page/main/transmission",
+        "page/main/share",
+        -- "page/main/user"
+        "page/main/My",
+      }
+    }
+  };
+  {
+    CardView;
+    -- background="#ff8ba8ff";
+    -- layout_weight="1";
+    layout_width="fill";
+    layout_height="64dp";
+    elevation="10dp";
+    -- radius="12dp";
+    id="id_bottom_card";
+    {
+      LinearLayout;
+      --background="#ff8ba8ff";
+      layout_width="fill";
+      layout_height="fill";
+      {
+        LinearLayout;
+        orientation="vertical";
+        gravity="center";
+        layout_weight="1";
+        layout_height="fill";
+        id="id_folder";
+        {
+          ImageView;
+          src="src/folder_close.png";
+          layout_width="8%w";
+          layout_height="4%h";
+        };
+        {
+          TextView;
+          text="文件";
+          textSize="14sp";
+        };
+      };
+
+      {
+        LinearLayout;
+        orientation="vertical";
+        gravity="center";
+        layout_weight="1";
+        layout_height="fill";
+        id="id_transmission";
+        {
+          ImageView;
+          src="src/server_close.png";
+          layout_width="8%w";
+          layout_height="4%h";
+        };
+        {
+          TextView;
+          text="传输";
+          textSize="14sp";
+        };
+      };
+
+
+
+      {
+        LinearLayout;
+        orientation="vertical";
+        gravity="center";
+        layout_weight="1";
+        layout_height="fill";
+        {
+          CardView;
+          radius="32dp";
+          layout_width="46dp";
+          layout_height="46dp";
+          background="#64B5F6";
+          layout_marginTop="-8dp";
+          {LinearLayout;
+            layout_width="fill";
+            layout_height="fill";
+            gravity="center";
+            id="id_float";
+            {ImageView;
+              src="src/addpro";
+              colorFilter="#ffffff";
+            };
+          };
+        };
+      };
+
+
+
+      {
+        LinearLayout;
+        orientation="vertical";
+        gravity="center";
+        layout_weight="1";
+        layout_height="fill";
+        id="id_share";
+        {
+          ImageView;
+          src="src/cloud.png";
+          layout_width="8%w";
+          layout_height="4%h";
+        };
+        {
+          TextView;
+          text="分享";
+          textSize="14sp";
+        };
+      };
+
+      {
+        LinearLayout;
+        orientation="vertical";
+        gravity="center";
+        layout_weight="1";
+        layout_height="fill";
+        id="id_user";
+        {
+          ImageView;
+          src="src/user_close.png";
+          layout_width="8%w";
+          layout_height="4%h";
+        };
+        {
+          TextView;
+          text="我的";
+          textSize="14sp";
+        };
+      };
+    };
+  };
+};

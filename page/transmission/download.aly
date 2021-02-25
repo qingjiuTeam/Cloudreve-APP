@@ -1,0 +1,35 @@
+{
+  LinearLayout;
+  layout_height="fill";
+  layout_width="fill";
+  orientation="vertical";
+  {
+    FrameLayout;
+    layout_width="fill";
+    layout_height="fill";
+    {
+      LinearLayout;
+      layout_height="fill";
+      layout_width="fill";
+      gravity="center";
+      id="id_empty_download";
+      {
+        TextView;
+        text="暂无下载记录";
+        id="id_download_empty";
+      };
+    };
+    {
+      LinearLayout;
+      layout_height="fill";
+      layout_width="fill";
+      {
+        ListView;
+        layout_height="fill";
+        layout_width="fill";
+        dividerHeight='1';
+        id="id_list_download";
+      };
+    };
+  };
+};
